@@ -1,0 +1,30 @@
+{
+  "name": "joe-mail-central",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0",
+    "@tiptap/core": "^3.0.0",
+    "@tiptap/react": "^3.0.0",
+    "@tiptap/pm": "^3.0.0",
+    "@tiptap/starter-kit": "^3.0.0",
+    "@tiptap/extension-text-style": "^3.0.0",
+    "@tiptap/extension-text-align": "^3.0.0",
+    "@tiptap/extension-image": "^3.0.0",
+    "@tiptap/extension-placeholder": "^3.0.0",
+    "dompurify": "^3.3.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "jsdom": "^26.0.0"
+  }
+}
